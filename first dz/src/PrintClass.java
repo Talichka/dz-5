@@ -1,5 +1,5 @@
 public class PrintClass {
-    public int toPrintInt = 52;
+    public int toPrintInt = 152;
 
     public String print() {
         String newMethod = String.format("\"---<%d>---\"%n", toPrintInt);

@@ -8,7 +8,7 @@ public class Main {
         PrintClass myPrint = new PrintClass();
         myPrint.print();
 
-        String newMethod2 = String.format("\"~~~<%d>~~~\"%n", myPrint.toPrintInt);
+        String newMethod2 = String.format("\"~~~%dvv~~~\"%n", myPrint.toPrintInt);
 
         System.out.println(newMethod2);
 
